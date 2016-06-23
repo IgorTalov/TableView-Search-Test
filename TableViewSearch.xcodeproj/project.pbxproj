@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEE2AE621CEE4C790067FFB8 /* ITStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE2AE611CEE4C790067FFB8 /* ITStudent.m */; };
+		EEE2AE661CEE550B0067FFB8 /* ITStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE2AE651CEE550B0067FFB8 /* ITStudentViewController.m */; };
 		EEEEE9371CEDF89000E579EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEEE9361CEDF89000E579EA /* main.m */; };
 		EEEEE93A1CEDF89000E579EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEEE9391CEDF89000E579EA /* AppDelegate.m */; };
 		EEEEE93D1CEDF89000E579EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEEE93C1CEDF89000E579EA /* ViewController.m */; };
@@ -14,9 +16,14 @@
 		EEEEE9431CEDF89000E579EA /* TableViewSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEEEE9411CEDF89000E579EA /* TableViewSearch.xcdatamodeld */; };
 		EEEEE9451CEDF89000E579EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEEE9441CEDF89000E579EA /* Assets.xcassets */; };
 		EEEEE9481CEDF89000E579EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEEE9461CEDF89000E579EA /* LaunchScreen.storyboard */; };
+		EEEEE9511CEE0A9500E579EA /* ITSection.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEEE9501CEE0A9500E579EA /* ITSection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EEE2AE601CEE4C790067FFB8 /* ITStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITStudent.h; sourceTree = "<group>"; };
+		EEE2AE611CEE4C790067FFB8 /* ITStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITStudent.m; sourceTree = "<group>"; };
+		EEE2AE641CEE550B0067FFB8 /* ITStudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITStudentViewController.h; sourceTree = "<group>"; };
+		EEE2AE651CEE550B0067FFB8 /* ITStudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITStudentViewController.m; sourceTree = "<group>"; };
 		EEEEE9321CEDF89000E579EA /* TableViewSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEEE9361CEDF89000E579EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEEEE9381CEDF89000E579EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +35,8 @@
 		EEEEE9441CEDF89000E579EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEEEE9471CEDF89000E579EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEEEE9491CEDF89000E579EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEEE94F1CEE0A9500E579EA /* ITSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITSection.h; sourceTree = "<group>"; };
+		EEEEE9501CEE0A9500E579EA /* ITSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITSection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EEE2AE631CEE4C7E0067FFB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEE2AE601CEE4C790067FFB8 /* ITStudent.h */,
+				EEE2AE611CEE4C790067FFB8 /* ITStudent.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		EEEEE9291CEDF89000E579EA = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +82,11 @@
 				EEEEE9391CEDF89000E579EA /* AppDelegate.m */,
 				EEEEE93B1CEDF89000E579EA /* ViewController.h */,
 				EEEEE93C1CEDF89000E579EA /* ViewController.m */,
+				EEE2AE641CEE550B0067FFB8 /* ITStudentViewController.h */,
+				EEE2AE651CEE550B0067FFB8 /* ITStudentViewController.m */,
+				EEE2AE631CEE4C7E0067FFB8 /* Model */,
+				EEEEE94F1CEE0A9500E579EA /* ITSection.h */,
+				EEEEE9501CEE0A9500E579EA /* ITSection.m */,
 				EEEEE93E1CEDF89000E579EA /* Main.storyboard */,
 				EEEEE9441CEDF89000E579EA /* Assets.xcassets */,
 				EEEEE9461CEDF89000E579EA /* LaunchScreen.storyboard */,
@@ -108,6 +131,7 @@
 		EEEEE92A1CEDF89000E579EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IT;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Игорь Талов";
 				TargetAttributes = {
@@ -153,10 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE2AE621CEE4C790067FFB8 /* ITStudent.m in Sources */,
 				EEEEE93D1CEDF89000E579EA /* ViewController.m in Sources */,
 				EEEEE9431CEDF89000E579EA /* TableViewSearch.xcdatamodeld in Sources */,
 				EEEEE93A1CEDF89000E579EA /* AppDelegate.m in Sources */,
 				EEEEE9371CEDF89000E579EA /* main.m in Sources */,
+				EEE2AE661CEE550B0067FFB8 /* ITStudentViewController.m in Sources */,
+				EEEEE9511CEE0A9500E579EA /* ITSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDeveloper.TableViewSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDeveloper.TableViewSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,6 +332,7 @@
 				EEEEE94E1CEDF89000E579EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
